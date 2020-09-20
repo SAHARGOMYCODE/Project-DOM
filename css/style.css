@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#head {
+  background-color: pink;
+  height: 80px;
+}
+#head .logo h4 {
+  margin-left: 150px;
+  line-height: 70px;
+  color: beige;
+}
+#head .flex1 {
+  display: flex;
+}
+#head .recherche {
+  margin-left: 150px;
+}
+#head .recherche input {
+  width: 600px;
+  margin-top: 20px;
+}
+#head .mini-nav {
+  margin-left: 100px;
+}
+#head .mini-nav i {
+  color: beige;
+  font-size: 25px;
+  margin-left: 20px;
+  line-height: 70px;
+}
+
+#nav {
+  margin-top: 20px;
+}
+#nav ul {
+  text-align: center;
+  list-style: none;
+}
+#nav ul li.femme-li {
+  display: inline-block;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#nav ul li.homme-li {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#nav ul li.homme-li:hover {
+  color: cadetblue;
+}
+#nav ul li.femme-li:hover {
+  color: darkgreen;
+}
+
+#home .femme-image {
+  float: left;
+  width: 49%;
+}
+#home .homme-image {
+  float: right;
+  width: 49%;
+}
+#end .container button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: pink;
+  color: black;
+  border: none;
+  border-radius: 5;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+#end .container button {
+  margin-top: 250px;
+}
